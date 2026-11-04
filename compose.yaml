@@ -1,0 +1,6 @@
+services:
+  cleaner:
+    build: .
+    image: csv-cleaner
+    volumes:
+      - .:/app
